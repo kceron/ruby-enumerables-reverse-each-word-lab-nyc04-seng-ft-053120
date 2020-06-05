@@ -12,5 +12,5 @@ def reverse_each_word(string)
     |elem| elem.reverse
     reversed << elem
   end 
-  return reversed#.join(" ")
+  return reversed.join(" ")
 end
